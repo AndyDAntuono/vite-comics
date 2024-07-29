@@ -17,3 +17,7 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 - installo bootstrap con il comando: npm install bootstrap;
 - installo sass con il comando: npm add -D sass;
 - all'interno della cartella src, creare la cartella styles e all'interno di quest'ultima creare il file generals.scss
+- importo il file genrals nel fil app.vue scrivendo...
+    <style lang="scss">
+    @use './styles/generals.scss';
+    </style>

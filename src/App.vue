@@ -1,19 +1,15 @@
 <script>
-import AppTitle from './components/AppTitle.vue';
-
 export default {
-  components: {
-    AppTitle
-  }
+
 }
 </script>
-
-<template>
-  <div>
-    <AppTitle />
-  </div>
+<template lang="">
+    <div>
+        <h1 class="text-center">Hello in Vite World</h1>
+    </div>
 </template>
 
-<style>
-  
+<!--scrivendo come segue si importa come si deve generals.scss-->
+<style lang="scss">
+@use './styles/generals.scss';
 </style>
