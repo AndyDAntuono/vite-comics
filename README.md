@@ -16,3 +16,4 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 - aggiungo/creo la cartella img all'interno della cartella assets (che a sua volta si trova nella cartella src) per aggiungere le immagini necessarie per progetto;
 - installo bootstrap con il comando: npm install bootstrap;
 - installo sass con il comando: npm add -D sass;
+- all'interno della cartella src, creare la cartella styles e all'interno di quest'ultima creare il file generals.scss
