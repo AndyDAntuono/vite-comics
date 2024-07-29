@@ -28,3 +28,4 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 - nel file AppHeader, sezione style, creo delle classi peronalizzate per la barra di navigazione. In particolare imposto che la voce attiva del menu si colori di blu ed appaio un effetto sottolineato (ho usato un border bottom) del medesimo colore.
 - creo il file AppMain.vue.
 - dal momento che non ho dati a sufficenza per completare main, metto quest'ultimo in standby.
+- creo il file ApppFooter.vue.
