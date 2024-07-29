@@ -1,4 +1,4 @@
-<template laang="">
+<template lang="">
     <header>
         <div class="container">
             <div class="row">
@@ -10,9 +10,9 @@
                                 <div class="collapse navbar-collapse">
                                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                         <li class="nav-item">
-                                          <a class="nav-link active" href="#">CHARACTERS</a>
+                                          <a class="nav-link" href="#">CHARACTERS</a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li class="nav-item active">
                                           <a class="nav-link" href="#">COMICS</a>
                                         </li>
                                         <li class="nav-item">
@@ -63,11 +63,14 @@
         </div>
     </header>
 </template>
-<script>
-export default {
 
+<style lang="scss">
+.nav-link {
+    font-weight: bold;
+    font-size: 20px;
 }
-</script>
-<style lang="">
 
+.nav-item.active .nav-link {
+    color: blue;
+}
 </style>
