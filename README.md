@@ -21,3 +21,8 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
     <style lang="scss">
     @use './styles/generals.scss';
     </style>
+- creo il file AppHeader.vue;
+- nel file AppHeader.vue, sezione script, inserisco un array di oggetti rappresentante la barra di navigazione;
+- nel file AppHeader.vue, sezione template creo una struttura rigida contenente il contenuto dell'header
+- sempre nella sezione template applico un v-for per tutte le voci della barra di navigazione;
+- nel file AppHeader, sezione style, creo delle classi peronalizzate per la barra di navigazione. In particolare imposto che la voce attiva del menu si colori di blu ed appaio un effetto sottolineato (ho usato un border bottom) del medesimo colore.
