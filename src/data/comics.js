@@ -1,7 +1,7 @@
 const comics = 
 [
     {
-      "thumb": "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
+      "thumb": "https://picsum.photos/200/300", //ho dovuto cambiare url poiché il mio antivirus impazziva con quello originale
       "price": "$19.99",
       "series": "Action Comics",
       "type": "comic book"
