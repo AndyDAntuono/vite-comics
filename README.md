@@ -32,4 +32,5 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 - creo la cartella data all'interno della cartella src
 - all'interno della cartella data creo il file comics.js
 - dentro al fil comics.js creo la costante comics dove copio ed incollo l'array di stringhe contenuto nel file dc-comics-json
-- nel file AppMain.vue, sezione script, importo il file comics.js
+- nel file AppMain.vue, sezione script, importo il file comics.js.
+- nella sezione template di AppMain.vue imposto una struttura rigida per ospitare lo slider.

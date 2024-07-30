@@ -14,8 +14,13 @@ export default {
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h1>Contenuto di main</h1>
+                <div class="col-2">
+                    <div class="card">
+                        <img src="" alt="">
+                        <div class="card-body">
+                            <div class="card-title"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
