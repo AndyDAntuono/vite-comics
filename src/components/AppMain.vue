@@ -1,6 +1,12 @@
 <script>
+import comics from '../data/comics';
+
 export default {
-    // Dati o metodi possono essere aggiunti qui se necessario
+    data() {
+        return {
+            comics
+        }
+    }
 }
 </script>
 
