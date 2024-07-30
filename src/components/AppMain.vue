@@ -14,6 +14,12 @@ export default {
     <main>
         <div class="container">
             <div class="row">
+                <div class="col-12">
+                    <div class="jumbotron">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-2" v-for="comic, index in comics" :key="index">
                     <div class="card bg-black text-white">
                         <img :src="comic.thumb" :alt="comic.series">
@@ -32,4 +38,12 @@ main {
     background-color: black;
     color: white;
 }
+
+.jumbotron {
+    background-image: url('../assets/img/jumbotron.jpg');
+    height: 300px; /* Anche qui ho dovuto impostare un altezza fissa poiché altrimenti non mi appariva l'immagine essendo il div jumbotron fondamentalmente vuoto */
+    background-size: cover; 
+    background-position: top;
+}
+
 </style>

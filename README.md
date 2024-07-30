@@ -34,3 +34,5 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 - dentro al fil comics.js creo la costante comics dove copio ed incollo l'array di stringhe contenuto nel file dc-comics-json
 - nel file AppMain.vue, sezione script, importo il file comics.js.
 - nella sezione template di AppMain.vue imposto una struttura rigida per ospitare lo slider.
+- sempre nella sezione template di AppMain.vue applico un ciclo v-for per creare tante card quanto lo sono i gruppi di array di stringhe all'interno di comics.js
+- sempre template di AppMain.vue, creo un div jumbrtron in cima allo slide. Dopodiché, nella sezione style, applico tutte le proprietà che mi servono per il jumbotron. Essendo l'immagine del jumbotron un elemento di sfondo, ho dovuto impostare un altezza fissa poiché altrimenti non sarabbe apparso niente essendo il div jumbotron vuoto.
