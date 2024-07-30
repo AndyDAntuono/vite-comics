@@ -86,11 +86,11 @@ export default {
                             <div class="follow-us">
                                 follow us
                             </div>
-                            <img src="../assets/img/footer-facebook.png" alt="">
-                            <img src="../assets/img/footer-twitter.png" alt="">
-                            <img src="../assets/img/footer-youtube.png" alt="">
-                            <img src="../assets/img/footer-pinterest.png" alt="">
-                            <img src="../assets/img/footer-periscope.png" alt="">
+                            <img class="footer-icon" src="../assets/img/footer-facebook.png" alt="">
+                            <img class="footer-icon" src="../assets/img/footer-twitter.png" alt="">
+                            <img class="footer-icon" src="../assets/img/footer-youtube.png" alt="">
+                            <img class="footer-icon" src="../assets/img/footer-pinterest.png" alt="">
+                            <img class="footer-icon" src="../assets/img/footer-periscope.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -100,15 +100,17 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.icon_and-text img {
+    /*ho dovuto ricorrere alle dimensioni fisse poiché quelle originali delle icone forniteci sono diverse*/
+    max-width: 50 px;
+    max-height: 100 px;
+}
+
 .bg-footer {
     background-image: url('../assets/img/dc-logo-bg.png'), url('../assets/img/footer-bg.jpg');
     background-position: right, left top;
     background-repeat: no-repeat, repeat;
     background-size: 30%, cover;
-}
-
-.icon_and-text img {
-    width: 25%;
 }
 
 a {
@@ -124,5 +126,9 @@ a:hover {
 .sign-up_button {
     border: 1px solid blue;
     color: white;
+}
+
+.footer-icon {
+    filter: invert(1) brightness(1.2) contrast(1.5);
 }
 </style>
