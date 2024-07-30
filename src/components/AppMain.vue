@@ -14,11 +14,11 @@ export default {
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-2">
+                <div class="col-2" v-for="comic, index in comics" :key="index">
                     <div class="card">
-                        <img src="" alt="">
+                        <img :src="comic.thumb" :alt="comic.series">
                         <div class="card-body">
-                            <div class="card-title"></div>
+                            <div class="card-title"> {{ comic.series }} </div>
                         </div>
                     </div>
                 </div>
