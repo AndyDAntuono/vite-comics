@@ -9,27 +9,27 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="d-flex justify-content-between align-items-center bg-primary text-white">
-                        <div class="icon_and-text">
+                    <div class="d-flex justify-content-between align-items-center bg-primary text-white p-3">
+                        <span class="icon_and-text">
                             <img src="../assets/img/buy-comics-digital-comics.png" alt="">
                             <p>DIGITAL COMICS</p>
-                        </div>
-                        <div class="icon_and-text">
+                        </span>
+                        <span class="icon_and-text">
                             <img src="../assets/img/buy-comics-merchandise.png" alt="">
                             <p>DC MERCHANDISE</p>
-                        </div>
-                        <div class="icon_and-text">
+                        </span>
+                        <span class="icon_and-text">
                             <img src="../assets/img/buy-comics-subscriptions.png" alt="">
                             <p>SUBSCRIPTIONS</p>
-                        </div>
-                        <div class="icon_and-text">
+                        </span>
+                        <span class="icon_and-text">
                             <img src="../assets/img/buy-comics-shop-locator.png" alt="">
                             <p>COMIC SHOP LOCATOR</p>
-                        </div>
-                        <div class="icon_and-text">
+                        </span>
+                        <span class="icon_and-text">
                             <img src="../assets/img/buy-dc-power-visa.svg" alt="">
                             <p>DC POWER VISA</p>
-                        </div>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -78,19 +78,19 @@ export default {
                       </div>
                 </div>
             </div>
-            <div class="row bg-secondary">
+            <div class="row bg-bottom-footer py-2">
                 <div class="col-12">
                     <div class="d-flex justify-content-between align-items-center">
-                        <div class="sign-up_button m-1">SIGN UP</div>
+                        <div class="sign-up_button p-1">SIGN UP</div>
                         <div class="d-flex justify-content-between align-items-center">
-                            <div class="follow-us">
-                                follow us
+                            <div class="follow-us me-2">
+                                FOLLOW US
                             </div>
-                            <img class="footer-icon" src="../assets/img/footer-facebook.png" alt="">
-                            <img class="footer-icon" src="../assets/img/footer-twitter.png" alt="">
-                            <img class="footer-icon" src="../assets/img/footer-youtube.png" alt="">
-                            <img class="footer-icon" src="../assets/img/footer-pinterest.png" alt="">
-                            <img class="footer-icon" src="../assets/img/footer-periscope.png" alt="">
+                            <img class="footer-icon me-2" src="../assets/img/footer-facebook.png" alt="">
+                            <img class="footer-icon me-2" src="../assets/img/footer-twitter.png" alt="">
+                            <img class="footer-icon me-2" src="../assets/img/footer-youtube.png" alt="">
+                            <img class="footer-icon me-2" src="../assets/img/footer-pinterest.png" alt="">
+                            <img class="footer-icon me-2" src="../assets/img/footer-periscope.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -100,10 +100,17 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.icon_and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .icon_and-text img {
     /*ho dovuto ricorrere alle dimensioni fisse poiché quelle originali delle icone forniteci sono diverse*/
-    max-width: 50 px;
-    max-height: 100 px;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .bg-footer {
@@ -123,9 +130,18 @@ a:hover {
     color: rgb(38, 125, 175);
 }
 
+.bg-bottom-footer {
+    background-color: rgb(58, 58, 58);
+}
+
 .sign-up_button {
-    border: 1px solid blue;
+    border: 3px solid blue;
     color: white;
+}
+
+.follow-us {
+    font-weight: bold;
+    color: blue;
 }
 
 .footer-icon {

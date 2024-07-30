@@ -19,7 +19,7 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row py-3">
                 <div class="col-2" v-for="comic, index in comics" :key="index">
                     <div class="card bg-black text-white">
                         <img :src="comic.thumb" :alt="comic.series">
