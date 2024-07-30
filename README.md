@@ -29,3 +29,7 @@ Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 - creo il file AppMain.vue.
 - dal momento che non ho dati a sufficenza per completare main, metto quest'ultimo in standby.
 - creo il file ApppFooter.vue.
+- creo la cartella data all'interno della cartella src
+- all'interno della cartella data creo il file comics.js
+- dentro al fil comics.js creo la costante comics dove copio ed incollo l'array di stringhe contenuto nel file dc-comics-json
+- nel file AppMain.vue, sezione script, importo il file comics.js
