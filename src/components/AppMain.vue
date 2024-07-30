@@ -15,10 +15,10 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="col-2" v-for="comic, index in comics" :key="index">
-                    <div class="card">
+                    <div class="card bg-black text-white">
                         <img :src="comic.thumb" :alt="comic.series">
                         <div class="card-body">
-                            <div class="card-title"> {{ comic.series }} </div>
+                            <div class="card-title"> {{ comic.series }}</div>
                         </div>
                     </div>
                 </div>
